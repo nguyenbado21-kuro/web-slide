@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# 🖼️ Slideshow Hình Ảnh Đẹp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Một ứng dụng slideshow hình ảnh được xây dựng bằng React với thiết kế đẹp mắt và hiệu ứng chuyển động mượt mà.
 
-## Available Scripts
+## ✨ Tính năng
 
-In the project directory, you can run:
+- 🎨 **Thiết kế đẹp mắt**: Giao diện hiện đại với hiệu ứng glass morphism
+- 🔄 **Tự động chuyển ảnh**: Slideshow tự động với khả năng tạm dừng/phát
+- 🖱️ **Điều khiển thủ công**: Nút prev/next và thumbnail để chuyển ảnh
+- 📱 **Responsive**: Tương thích với mọi kích thước màn hình
+- ⚡ **Hiệu ứng mượt mà**: Fade in/out và các animation đẹp mắt
+- 📊 **Thanh tiến trình**: Hiển thị vị trí hiện tại trong slideshow
 
-### `npm start`
+## 🚀 Cách chạy
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Cài đặt dependencies:**
+   ```bash
+   cd image-slideshow
+   npm install
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Chạy ứng dụng:**
+   ```bash
+   npm start
+   ```
 
-### `npm test`
+3. **Mở trình duyệt:**
+   Truy cập `http://localhost:3000`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📁 Cấu trúc thư mục
 
-### `npm run build`
+```
+image-slideshow/
+├── public/
+│   ├── 1.png - 25.png    # Các file ảnh
+│   └── index.html
+├── src/
+│   ├── App.js            # Component chính
+│   ├── App.css           # Styles
+│   └── index.js
+└── README.md
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎮 Cách sử dụng
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Tự động phát**: Slideshow sẽ tự động chuyển ảnh mỗi 3 giây
+- **Tạm dừng/Phát**: Click nút ⏸️/▶️ ở góc trên bên phải
+- **Chuyển ảnh thủ công**: Sử dụng nút ❮ ❯ hoặc click vào thumbnail
+- **Xem thông tin**: Số thứ tự ảnh hiển thị ở góc dưới bên phải
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tùy chỉnh
 
-### `npm run eject`
+Để thêm/thay đổi ảnh:
+1. Đặt file ảnh vào thư mục `public/`
+2. Cập nhật mảng `images` trong `App.js`
+3. Đảm bảo tên file theo định dạng số (1.png, 2.png, ...)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📱 Responsive Design
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Desktop**: Hiển thị đầy đủ tính năng
+- **Tablet**: Tối ưu layout cho màn hình trung bình
+- **Mobile**: Giao diện compact, dễ sử dụng trên điện thoại
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🎨 Thiết kế
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Background**: Gradient tím xanh đẹp mắt
+- **Glass Effect**: Hiệu ứng kính mờ hiện đại
+- **Animations**: Fade, scale, shimmer effects
+- **Typography**: Font Segoe UI sang trọng
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Enjoy your beautiful slideshow! 🎉
